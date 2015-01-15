@@ -45,6 +45,12 @@ path=(
   $HOME/bin
 )
 
+# Add RVM to PATH for scripting
+path=(
+	$path
+	$HOME/.rvm/bin
+)
+
 #
 # Less
 #
