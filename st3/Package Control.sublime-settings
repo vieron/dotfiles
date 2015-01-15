@@ -1,0 +1,39 @@
+{
+	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"Abacus",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"CSSTidy",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"GitHub Flavored Markdown Preview",
+		"GitHubinator",
+		"Handlebars",
+		"Idiomatic-CSS-Comments-Snippets",
+		"Jinja2",
+		"Markdown Preview",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"Stylus",
+		"Sublime-HTMLPrettify",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Theme - Spacegray",
+		"TrailingSpaces",
+		"WordHighlight"
+	]
+}

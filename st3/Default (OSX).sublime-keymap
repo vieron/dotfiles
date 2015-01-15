@@ -1,0 +1,41 @@
+[
+    { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar"},
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+
+
+    // SideBarEnhancements
+    // If you have problems configuring F12 key - https://github.com/titoBouzout/SideBarEnhancements#f12-key
+    // , { "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+    // { "keys": ["f2"], "command": "side_bar_rename" },
+    // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" }
+
+    // TrailingSpaces
+    { "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" },
+    { "keys": ["alt+super+b"], "command": "toggle_side_bar" },
+
+    { "keys": ["alt+i"], "command": "indent" },
+    { "keys": ["alt+u"], "command": "unindent" },
+
+    { "keys": ["super+alt+f"], "command": "fold" },
+    { "keys": ["super+alt+u"], "command": "unfold" },
+
+    { "keys": ["f2"], "command": "next_bookmark" },
+    { "keys": ["shift+f2"], "command": "prev_bookmark" },
+    { "keys": ["super+f2"], "command": "toggle_bookmark" },
+    { "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
+    { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
+
+    { "keys": ["ctrl+alt+super+v"], "command": "clipboard_manager_show"},
+    { "keys": ["ctrl+alt+super+v", "1"], "command": "clipboard_manager_paste_from_register", "args": { "register": "1" } },
+    { "keys": ["ctrl+alt+super+v", "2"], "command": "clipboard_manager_paste_from_register", "args": { "register": "2" } },
+    { "keys": ["ctrl+alt+super+v", "3"], "command": "clipboard_manager_paste_from_register", "args": { "register": "3" } },
+    { "keys": ["ctrl+alt+super+v", "4"], "command": "clipboard_manager_paste_from_register", "args": { "register": "4" } },
+    { "keys": ["ctrl+alt+super+v", "5"], "command": "clipboard_manager_paste_from_register", "args": { "register": "5" } },
+    { "keys": ["ctrl+alt+super+v", "6"], "command": "clipboard_manager_paste_from_register", "args": { "register": "6" } },
+    { "keys": ["ctrl+alt+super+v", "7"], "command": "clipboard_manager_paste_from_register", "args": { "register": "7" } },
+    { "keys": ["ctrl+alt+super+v", "8"], "command": "clipboard_manager_paste_from_register", "args": { "register": "8" } },
+    { "keys": ["ctrl+alt+super+v", "9"], "command": "clipboard_manager_paste_from_register", "args": { "register": "9" } },
+    { "keys": ["ctrl+alt+super+v", "0"], "command": "clipboard_manager_paste_from_register", "args": { "register": "0" } },
+
+]
