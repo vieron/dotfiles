@@ -66,10 +66,10 @@
 		"Vintage",
 		"BracketHighlighter",
 		"WordHighlight",
+		"Markdown Preview",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
-		"SideBarEnhancements",
-		"Markdown Preview"
+		"SideBarEnhancements"
 	],
 	"index_exclude_patterns":
 	[
