@@ -27,3 +27,26 @@ Add a new completion:
 
 	cd ~/.zsh.custom/completions
 	ln -s /usr/local/share/zsh/site-functions/_wadus _wadus
+
+
+
+
+
+
+## Sublime
+
+Install [Package Control](https://packagecontrol.io/installation#st3)
+
+
+Create symlinks:
+
+	cd "~/Library/Application Support/Sublime Text 3/Packages/User"
+
+	ln -s ~/.dotfiles/st3/Package\ Control.sublime-settings .                                                                               ⏎
+	ln -s ~/.dotfiles/st3/Default\ \(OSX\).sublime-keymap .
+	ln -s ~/.dotfiles/st3/JavaScript.sublime-settings .
+	ln -s ~/.dotfiles/st3/Preferences.sublime-settings
+	ln -s ~/.dotfiles/st3/SideBarGit.sublime-settings
+	ln -s ~/.dotfiles/st3/SublimeLinter.sublime-settings
+	ln -s ~/.dotfiles/st3/base16-ocean.dark\ \(SL\).tmTheme
+
