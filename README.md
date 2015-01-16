@@ -31,6 +31,23 @@ Add a new completion:
 
 
 
+## iTerm 2
+
+### Load color-schemes
+
+- On iTerm2, go to Preferences > Profiles > Colors
+- Click on Load Presets > Import your favorite theme from ~/.dotfiles/iterm2/base16
+- Load the theme by clicking on Load Presets and selecting it
+
+### Load preferences
+
+- On iTerm2, go to Preferences > General
+- Check the 'Load preferences from a custom folder or URL'
+- Click browse and select `~/.dotfiles/iterm2` directory
+
+
+
+
 ## Git
 
 Create symlinks:
