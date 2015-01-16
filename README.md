@@ -17,6 +17,11 @@ Create symlinks:
 	ln -s .dotfiles/zsh/zshrc .zshrc
 
 
+Create .localrc for machine-specific configuration
+
+	touch ~/.localrc
+
+
 Fetch submodules:
 
 	cd ~/.dotfiles
@@ -63,6 +68,7 @@ To set a different email per repo use:
 
 
 
+
 ## Sublime
 
 Install [Package Control](https://packagecontrol.io/installation#st3)
@@ -72,11 +78,10 @@ Create symlinks:
 
 	cd "~/Library/Application Support/Sublime Text 3/Packages/User"
 
-	ln -s ~/.dotfiles/st3/Package\ Control.sublime-settings .                                                                               ⏎
-	ln -s ~/.dotfiles/st3/Default\ \(OSX\).sublime-keymap .
-	ln -s ~/.dotfiles/st3/JavaScript.sublime-settings .
+	ln -s ~/.dotfiles/st3/Package\ Control.sublime-settings
+	ln -s ~/.dotfiles/st3/Default\ \(OSX\).sublime-keymap
+	ln -s ~/.dotfiles/st3/JavaScript.sublime-settings
 	ln -s ~/.dotfiles/st3/Preferences.sublime-settings
 	ln -s ~/.dotfiles/st3/SideBarGit.sublime-settings
 	ln -s ~/.dotfiles/st3/SublimeLinter.sublime-settings
 	ln -s ~/.dotfiles/st3/base16-ocean.dark\ \(SL\).tmTheme
-
