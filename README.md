@@ -31,6 +31,19 @@ Add a new completion:
 
 
 
+## Git
+
+Create symlinks:
+
+	cd ~
+	ln -s .dotfiles/git/.gitconfig
+	ln -s .dotfiles/git/.gitignore
+
+
+To set a different email per repo use:
+
+	git config user.email "wadus@wadus.com"
+
 
 
 ## Sublime
