@@ -28,6 +28,12 @@ Fetch submodules:
 	git submodule update --init --recursive
 
 
+Initial setup:
+
+	cd ~/.dotfiles
+	./setup
+
+
 Add a new completion:
 
 	cd ~/.zsh.custom/completions
