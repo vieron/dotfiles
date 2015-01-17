@@ -18,3 +18,4 @@ alias sctl='supervisorctl'
 
 # localrc (machine specific shell config)
 [ -e $HOME/.localrc ] && source $HOME/.localrc
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
