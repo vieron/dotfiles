@@ -1,5 +1,14 @@
 # Setup
 
+Install some prerequisites:
+
+	[HomeBrew](http://brew.sh/)
+	[RVM](https://rvm.io/)
+	brew install git
+	brew install nvm
+	brew install python
+
+
 Clone the repo in your HOME path:
 
 	git clone git://github.com/vieron/dotfiles.git ~/.dotfiles
