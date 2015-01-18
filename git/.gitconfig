@@ -31,3 +31,5 @@
 [branch]
   autosetupmerge = true
   autosetuprebase = always
+[push]
+	default = simple
