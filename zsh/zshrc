@@ -33,5 +33,9 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# Completions
+# Cache expiration days for grunt completion
+zstyle ':completion::complete:grunt::options:' expire 1
+
 # localrc (machine specific shell config)
 [ -e $HOME/.localrc ] && source $HOME/.localrc
