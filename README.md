@@ -66,8 +66,6 @@ Add a new completion:
 - Click browse and select `~/.dotfiles/iterm2` directory
 
 
-
-
 ## Git
 
 Create symlinks:
@@ -100,3 +98,13 @@ Create symlinks:
 	ln -s ~/.dotfiles/st3/SideBarGit.sublime-settings
 	ln -s ~/.dotfiles/st3/SublimeLinter.sublime-settings
 	ln -s ~/.dotfiles/st3/base16-ocean.dark\ \(SL\).tmTheme
+
+
+
+
+## Useful commands
+
+### OSX
+
+- `tab` creates a new tab
+- `ql` previews files in Quick Look
