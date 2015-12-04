@@ -9,3 +9,12 @@
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+# RVM - Ruby Version Manager
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# NVM - Node Version Manager
+# Node installs will be lost upon upgrading nvm. Add the following above
+# the source line to move install location and prevent this:
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh

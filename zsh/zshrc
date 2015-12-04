@@ -24,15 +24,6 @@ function r() { grep "$1" ${@:2} -R . }
 #mkdir and cd
 function mkcd() { mkdir -p "$@" && cd "$_"; }
 
-# RVM - Ruby Version Manager
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-# NVM - Node Version Manager
-# Node installs will be lost upon upgrading nvm. Add the following above
-# the source line to move install location and prevent this:
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-
 # Completions
 # Cache expiration days for grunt completion
 zstyle ':completion::complete:grunt::options:' expire 1
