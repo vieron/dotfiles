@@ -88,9 +88,12 @@ Install [Package Control](https://packagecontrol.io/installation#st3)
 
 
 Create symlinks:
-
-	cd "~/Library/Application Support/Sublime Text 3/Packages/User"
-
+	
+	cd ~
+	mkdir bin
+	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
+	
+	cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 	ln -s ~/.dotfiles/st3/Package\ Control.sublime-settings
 	ln -s ~/.dotfiles/st3/Default\ \(OSX\).sublime-keymap
 	ln -s ~/.dotfiles/st3/JavaScript.sublime-settings
